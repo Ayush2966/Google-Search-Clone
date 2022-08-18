@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title> Google Clone</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <ul class="nav nav-pills">
+          <li><a target='_blank' href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.uk/%3Fgws_rd%3Dssl" class="colorfix"><button class="btn" role="button">Sign in</button></a></li>
+          <li>
+            <a  title="Google apps" class="firstsbuttons" href="https://www.google.co.in/intl/en/about/products?tab=rh"><img class="quad" src="https://images.squarespace-cdn.com/content/v1/538c71f8e4b0371e6dad5b7f/1402062372086-YX1EMH5GWV50R0JJNLXJ/image-asset.jpeg" height="20" width="20"></a>
+          </li>
+          <li><a  href="https://www.google.co.uk/imghp?hl=en&tab=wi&ei=7sfqVtCHG6TgyQOjo7d4&ved=0EKouCBUoAQ" style="color:rgb(0, 0, 0);  padding:5px; padding-top:10px; font-size:15px; text-decoration: none;"><b>Images</b></a></li>
+          <li><a target='_blank' class="firstsbuttons" href="https://mail.google.com/mail/?tab=wm" style="color:rgb(0, 0, 0); font-size:15px; text-decoration: none;"><b>Gmail</b></a></li>
+        </ul>
+        <div class="page">
+      
+          <img class="logo" src="https://www.google.it/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+          <br><input id="searchme" class="search" title="Search" type="text"><br>
+          <div class="Bcontainer">
+            <div class="button left">Google Search</div>
+            <div class="button right">I'm Feeling Lucky</div>
+          </div>
+        </div>
+        <center><a href="https://www.google.co.uk/setprefs?sig=0_5--Qx9SislJ1gIUhy6dFEiPC5yM%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjL8Jb0s9D5AhW_mlYBHRabB94Q2ZgBCBA" style="padding:5px;text-decoration:none;">हिन्दी</a> 
+          <a   href="https://www.google.co.uk/setprefs?sig=0_5--Qx9SislJ1gIUhy6dFEiPC5yM%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwjwtPGMutD5AhW3plYBHUJMBZsQ2ZgBCBA" style="padding:5px;text-decoration:none;">English</a>
+        
+        <a href="https://www.google.co.uk/setprefs?sig=0_5--Qx9SislJ1gIUhy6dFEiPC5yM%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwipj6OnutD5AhV5tlYBHQ7pD0EQ2ZgBCBE" style="padding:5px;text-decoration:none;">বাংলা
+
+        </a>
+      <a href="https://www.google.co.uk/setprefs?sig=0_5--Qx9SislJ1gIUhy6dFEiPC5yM%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwipj6OnutD5AhV5tlYBHQ7pD0EQ2ZgBCBM" style="padding:5px;text-decoration:none;">मराठी
+
+      </a>
+      <a href="https://www.google.co.uk/setprefs?sig=0_5--Qx9SislJ1gIUhy6dFEiPC5yM%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwipj6OnutD5AhV5tlYBHQ7pD0EQ2ZgBCBU" style="padding:5px;text-decoration:none;">
+        ગુજરાતી
+      </a>
+      <a href="https://www.google.co.uk/setprefs?sig=0_5--Qx9SislJ1gIUhy6dFEiPC5yM%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwipj6OnutD5AhV5tlYBHQ7pD0EQ2ZgBCBI" style="padding:5px;text-decoration:none;">
+        తెలుగు
+      </a>
+      <a href="https://www.google.co.uk/setprefs?sig=0_5--Qx9SislJ1gIUhy6dFEiPC5yM%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwipj6OnutD5AhV5tlYBHQ7pD0EQ2ZgBCBQ" style="padding:5px;text-decoration:none;">
+        தமிழ்
+      </a>
+      <a href="https://www.google.co.uk/setprefs?sig=0_5--Qx9SislJ1gIUhy6dFEiPC5yM%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwipj6OnutD5AhV5tlYBHQ7pD0EQ2ZgBCBg" style="padding:5px;text-decoration:none;">ਪੰਜਾਬੀ</a>
+    </center>
+
+        <footer class="nav nav-tabs">
+          <ul class="bottomone rightone">
+            <li><a target="blank" href="https://www.google.co.uk/preferences?hl=en">Settings</a></li>
+            <li><a target="blank" href="https://www.google.co.uk/intl/en/policies/terms/?fg=1">Terms</a></li>
+            <li><a target="blank" href="https://www.google.co.uk/intl/en/policies/privacy/?fg=1">Privacy</a></li>
+      
+          </ul>
+          <ul class="leftone bottomone">
+            <li><a target="blank" href="https://www.google.co.uk/intl/en/about.html?fg=1">About</a></li>
+            <li><a target="blank" href="https://www.google.co.uk/services/?fg=1">Business</a></li>
+            <li><a target="blank" href="https://www.google.co.uk/intl/en/ads/?fg=1">Advertising</a></li>
+          </ul>
+        </footer>
+      
+        <script type="text/javascript" >
+          (document).ready(function() {
+          var gsearch = function() {
+            var url = 'https://www.google.com/search?q=' + document.getElementById('searchme').value;
+            window.open(url, 'google');
+          };
+          var glucky = function() {
+            var url = 'https://www.google.com/search?q=' + document.getElementById('searchme').value + '&btnI';
+            window.open(url, 'google');
+          };
+        
+          $(".left").click(gsearch);
+          $(".right").click(glucky);
+        
+          $("#searchme").keypress(function(e) {
+            if (e.which == 13) {
+              gsearch();
+            }
+          });
+        });</script>
+      </body>
+</html>
